@@ -42,6 +42,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags:
-            ghcr.io/primebank/moinul:latest
-            ghcr.io/primebank/moinul:${{github.run_number}}
+            ghcr.io/primebank-com-bd/moinul:latest
+            ghcr.io/primebank-com-bd/moinul:${{ github.run_number }}
           
